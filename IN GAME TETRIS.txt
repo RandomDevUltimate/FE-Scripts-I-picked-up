@@ -1,4 +1,4 @@
-name = "initallyeveryone"
+name = "initiallyeveryone"
 
 me = game.Players[name]
 
