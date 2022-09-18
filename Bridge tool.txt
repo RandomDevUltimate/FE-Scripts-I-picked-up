@@ -1,4 +1,4 @@
-me = game.Players.yfc
+me = game.Players.initiallyeveryone
 
 if script.Parent.className ~= "HopperBin" then
 h = Instance.new("HopperBin")
