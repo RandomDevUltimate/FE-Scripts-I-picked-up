@@ -12,8 +12,8 @@ if script == nil then return end
 
 Player = game:GetService("Players"):FindFirstChild("initiallyeveryone")
 Name = "Adrenaline Syringe"
-selected = false
-Button1Down = false
+selected = true
+Button1Down = true
 CanUse = true
 
 
