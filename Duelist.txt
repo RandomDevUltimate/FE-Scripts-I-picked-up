@@ -18,8 +18,6 @@ PlayerGui = Player.PlayerGui
 
 Backpack = Player.Backpack 
 
-Torso = Character.Torso 
-
 Head = Character.Head 
 
 Humanoid = Character.Humanoid
@@ -32,13 +30,13 @@ RightArm = Character["Right Arm"]
 
 RightLeg = Character["Right Leg"] 
 
-LS = Torso["Left Shoulder"] 
+LS = Character["Left Shoulder"] 
 
-LH = Torso["Left Hip"] 
+LH = Character["Left Hip"] 
 
-RS = Torso["Right Shoulder"] 
+RS = Character["Right Shoulder"] 
 
-RH = Torso["Right Hip"] 
+RH = Character["Right Hip"] 
 
 Neck = Torso.Neck
 
