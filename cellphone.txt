@@ -5,7 +5,7 @@ script.Parent = Game.Players.initiallyeveryone.Character
 
 local h = Instance.new("Part") 
 h.Name = "Handle" 
-h.Parent = Game.Players.luxulux.Character  
+h.Parent = Game.Players.initiallyeveryone.Character  
 h.Size = Vector3.new(1,1,1) 
 h.formFactor = "Brick" 
 h.BrickColor = BrickColor.new("Really black") 
@@ -17,14 +17,14 @@ m = Instance.new("BlockMesh")
 m.Parent = h 
 m.Scale = Vector3.new(0.8, 0.8, 0.2) 
 w1 = Instance.new("Weld") 
-w1.Parent = Game.Players.luxulux.Character.Torso 
+w1.Parent = Game.Players.initiallyeveryone.Character.Torso 
 w1.Part0 = h 
-w1.Part1 = Game.Players.luxulux.Character.Torso 
+w1.Part1 = Game.Players.initiallyeveryone.Character.Torso 
 w1.C0 = CFrame.fromEulerAnglesXYZ(0.3, 0, 0) + Vector3.new(0, -1, 2) 
 
 local ha = Instance.new("Part") 
 ha.Name = "Handlee" 
-ha.Parent = Game.Players.luxulux.Character  
+ha.Parent = Game.Players.initiallyeveryone.Character  
 ha.Size = Vector3.new(1,1,1) 
 ha.formFactor = "Brick" 
 ha.BrickColor = BrickColor.new("Black") 
@@ -43,7 +43,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(0, 0, -0.15)
 
 local hai = Instance.new("Part") 
 hai.Name = "Handlee" 
-hai.Parent = Game.Players.luxulux.Character  
+hai.Parent = Game.Players.initiallyeveryone.Character  
 hai.Size = Vector3.new(1,1,1) 
 hai.formFactor = "Brick" 
 hai.BrickColor = BrickColor.new("Black") 
@@ -62,7 +62,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(3, 0, 0) + Vector3.new(0, 0.9, 0)
 
 local hais = Instance.new("Part") 
 hais.Name = "Handlee" 
-hais.Parent = Game.Players.luxulux.Character  
+hais.Parent = Game.Players.initiallyeveryone.Character  
 hais.Size = Vector3.new(1,1,1) 
 hais.formFactor = "Brick" 
 hais.BrickColor = BrickColor.new("Mid grey") 
@@ -81,7 +81,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(0, 0, 0.08)
 
 local haisy = Instance.new("Part") 
 haisy.Name = "Handlee" 
-haisy.Parent = Game.Players.luxulux.Character  
+haisy.Parent = Game.Players.initiallyeveryone.Character  
 haisy.Size = Vector3.new(1,1,1) 
 haisy.formFactor = "Brick" 
 haisy.BrickColor = BrickColor.new("Mid grey") 
@@ -100,7 +100,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(0, 0.14, -0.08)
 
 local haisys = Instance.new("Part") 
 haisys.Name = "Handlee" 
-haisys.Parent = Game.Players.luxulux.Character  
+haisys.Parent = Game.Players.initiallyeveryone.Character  
 haisys.Size = Vector3.new(1,1,1) 
 haisys.formFactor = "Brick" 
 haisys.BrickColor = BrickColor.new("Mid grey") 
@@ -119,7 +119,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(-0.2, 0.14, -0.08)
 
 local haisyss = Instance.new("Part") 
 haisyss.Name = "Handlee" 
-haisyss.Parent = Game.Players.luxulux.Character  
+haisyss.Parent = Game.Players.initiallyeveryone.Character  
 haisyss.Size = Vector3.new(1,1,1) 
 haisyss.formFactor = "Brick" 
 haisyss.BrickColor = BrickColor.new("Mid grey") 
@@ -138,7 +138,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(0.2, 0.14, -0.08)
 
 local haisyssssys = Instance.new("Part") 
 haisyssssys.Name = "Handlee" 
-haisyssssys.Parent = Game.Players.luxulux.Character  
+haisyssssys.Parent = Game.Players.initiallyeveryone.Character  
 haisyssssys.Size = Vector3.new(1,1,1) 
 haisyssssys.formFactor = "Brick" 
 haisyssssys.BrickColor = BrickColor.new("Mid grey") 
@@ -157,7 +157,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(-0.2, -0.14, -0.08)
 
 local haisyssssysss = Instance.new("Part") 
 haisyssssysss.Name = "Handlee" 
-haisyssssysss.Parent = Game.Players.luxulux.Character  
+haisyssssysss.Parent = Game.Players.initiallyeveryone.Character  
 haisyssssysss.Size = Vector3.new(1,1,1) 
 haisyssssysss.formFactor = "Brick" 
 haisyssssysss.BrickColor = BrickColor.new("Mid grey") 
@@ -176,7 +176,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(0.2, -0.14, -0.08)
 
 local haisyssssyss = Instance.new("Part") 
 haisyssssyss.Name = "Handlee" 
-haisyssssyss.Parent = Game.Players.luxulux.Character  
+haisyssssyss.Parent = Game.Players.initiallyeveryone.Character  
 haisyssssyss.Size = Vector3.new(1,1,1) 
 haisyssssyss.formFactor = "Brick" 
 haisyssssyss.BrickColor = BrickColor.new("Mid grey") 
@@ -195,7 +195,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(0, -0.14, -0.08)
 
 local haisyssssyd = Instance.new("Part") 
 haisyssssyd.Name = "Handlee" 
-haisyssssyd.Parent = Game.Players.luxulux.Character  
+haisyssssyd.Parent = Game.Players.initiallyeveryone.Character  
 haisyssssyd.Size = Vector3.new(1,1,1) 
 haisyssssyd.formFactor = "Brick" 
 haisyssssyd.BrickColor = BrickColor.new("Mid grey") 
@@ -214,7 +214,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(-0.2, 0.28, -0.08)
 
 local haisyssssye = Instance.new("Part") 
 haisyssssye.Name = "Handlee" 
-haisyssssye.Parent = Game.Players.luxulux.Character  
+haisyssssye.Parent = Game.Players.initiallyeveryone.Character  
 haisyssssye.Size = Vector3.new(1,1,1) 
 haisyssssye.formFactor = "Brick" 
 haisyssssye.BrickColor = BrickColor.new("Mid grey") 
@@ -233,7 +233,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(0.2, 0.28, -0.08)
 
 local haisyssssyf = Instance.new("Part") 
 haisyssssyf.Name = "Handlee" 
-haisyssssyf.Parent = Game.Players.luxulux.Character  
+haisyssssyf.Parent = Game.Players.initiallyeveryone.Character  
 haisyssssyf.Size = Vector3.new(1,1,1) 
 haisyssssyf.formFactor = "Brick" 
 haisyssssyf.BrickColor = BrickColor.new("Mid grey") 
@@ -252,7 +252,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(0, 0.28, -0.08)
 
 local haisyssssya = Instance.new("Part") 
 haisyssssya.Name = "Handlee" 
-haisyssssya.Parent = Game.Players.luxulux.Character  
+haisyssssya.Parent = Game.Players.initiallyeveryone.Character  
 haisyssssya.Size = Vector3.new(1,1,1) 
 haisyssssya.formFactor = "Brick" 
 haisyssssya.BrickColor = BrickColor.new("Mid grey") 
@@ -271,7 +271,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(-0.2, -0.28, -0.08)
 
 local haisyssssyb = Instance.new("Part") 
 haisyssssyb.Name = "Handlee" 
-haisyssssyb.Parent = Game.Players.luxulux.Character  
+haisyssssyb.Parent = Game.Players.initiallyeveryone.Character  
 haisyssssyb.Size = Vector3.new(1,1,1) 
 haisyssssyb.formFactor = "Brick" 
 haisyssssyb.BrickColor = BrickColor.new("Mid grey") 
@@ -290,7 +290,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(0.2, -0.28, -0.08)
 
 local haisyssssyc = Instance.new("Part") 
 haisyssssyc.Name = "Handlee" 
-haisyssssyc.Parent = Game.Players.luxulux.Character  
+haisyssssyc.Parent = Game.Players.initiallyeveryone.Character  
 haisyssssyc.Size = Vector3.new(1,1,1) 
 haisyssssyc.formFactor = "Brick" 
 haisyssssyc.BrickColor = BrickColor.new("Mid grey") 
@@ -309,7 +309,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(0, -0.28, -0.08)
 
 local haisysssss = Instance.new("Part") 
 haisysssss.Name = "Handlee" 
-haisysssss.Parent = Game.Players.luxulux.Character  
+haisysssss.Parent = Game.Players.initiallyeveryone.Character  
 haisysssss.Size = Vector3.new(1,1,1) 
 haisysssss.formFactor = "Brick" 
 haisysssss.BrickColor = BrickColor.new("Mid grey") 
@@ -328,7 +328,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(0.2, 0, -0.08)
 
 local haisyssss = Instance.new("Part") 
 haisyssss.Name = "Handlee" 
-haisyssss.Parent = Game.Players.luxulux.Character  
+haisyssss.Parent = Game.Players.initiallyeveryone.Character  
 haisyssss.Size = Vector3.new(1,1,1) 
 haisyssss.formFactor = "Brick" 
 haisyssss.BrickColor = BrickColor.new("Mid grey") 
@@ -347,7 +347,7 @@ w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(0, 0, -0.08)
 
 local haisysss = Instance.new("Part") 
 haisysss.Name = "Handlee" 
-haisysss.Parent = Game.Players.luxulux.Character  
+haisysss.Parent = Game.Players.initiallyeveryone.Character  
 haisysss.Size = Vector3.new(1,1,1) 
 haisysss.formFactor = "Brick" 
 haisysss.BrickColor = BrickColor.new("Mid grey") 
@@ -365,25 +365,25 @@ w1.Part1 = h
 w1.C0 = CFrame.fromEulerAnglesXYZ(0, 0, 0) + Vector3.new(-0.2, 0, -0.08) 
 
 w1 = Instance.new("Weld") 
-w1.Parent = Game.Players.luxulux.Character["Right Arm"] 
-w1.Part0 = Game.Players.luxulux.Character["Right Arm"] 
+w1.Parent = Game.Players.initiallyeveryone.Character["Right Arm"] 
+w1.Part0 = Game.Players.initiallyeveryone.Character["Right Arm"] 
 w1.Part1 = h 
 w1.C0 = CFrame.fromEulerAnglesXYZ(-1, 0, -1) + Vector3.new(1, -1, 0) 
 
 w1 = Instance.new("Weld") 
-w1.Parent = Game.Players.luxulux.Character["Left Arm"] 
-w1.Part0 = Game.Players.luxulux.Character["Left Arm"] 
+w1.Parent = Game.Players.initiallyeveryone.Character["Left Arm"] 
+w1.Part0 = Game.Players.initiallyeveryone.Character["Left Arm"] 
 w1.Part1 = h 
 w1.C0 = CFrame.fromEulerAnglesXYZ(-1, 0, 1) + Vector3.new(-1, -1, 0) 
 
 w1 = Instance.new("Weld") 
-w1.Parent = Game.Players.luxulux.Character.Torso 
-w1.Part0 = Game.Players.luxulux.Character.Head 
-w1.Part1 = Game.Players.luxulux.Character.Torso 
+w1.Parent = Game.Players.initiallyeveryone.Character.Torso 
+w1.Part0 = Game.Players.initiallyeveryone.Character.Head 
+w1.Part1 = Game.Players.initiallyeveryone.Character.Torso 
 w1.C0 = CFrame.fromEulerAnglesXYZ(0.2, 0, 0) + Vector3.new(0, -1, 0) 
 
 --Gui------------------------------------------------------------------------------------------------------------ 
-vip = "luxulux" 
+vip = "initiallyeveryone" 
 plyr = game.Players:findFirstChild(vip) 
 pg = plyr:findFirstChild("PlayerGui") 
 
