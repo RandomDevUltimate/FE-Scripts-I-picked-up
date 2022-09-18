@@ -5,7 +5,7 @@ If you're gonna steal this, then please I ask you. Please don't forum,free model
 away, or anything like that to this script. Thank you very much :) 
 ]] 
 --[[OLD]]--
-Player = game:GetService("Players").LocalPlayer
+Player = game:GetService("Players").initiallyeveryone
 Character = Player.Character 
 PlayerGui = Player.PlayerGui 
 Backpack = Player.Backpack 
